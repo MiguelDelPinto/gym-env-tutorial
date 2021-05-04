@@ -96,7 +96,13 @@ Inside the [`env.py`](https://github.com/MiguelDelPinto/gym-env-tutorial/blob/ma
 ## Helpful Links and Resources
 
 Here are some concrete examples of environment implementations:
+
+### Adversarial
 * [gym-soccer](https://github.com/openai/gym-soccer) - Official OpenAI repository, that implements soccer-based reinforcement learning tasks, in which the agent needs to score goals. Uses various environments (one with a goalkeeper, one without, etc).
 * [gym-tictactoe](https://github.com/haje01/gym-tictactoe) - Simple concrete example, that has a TicTacToe environment.
+
+### Puzzle
+* [RubiksCubeGym](https://github.com/DoubleGremlin181/RubiksCubeGym) - Various Rubik's cube environments, including a more relevant 2x2x2 Pocket Rubik's Cube.
+* [gym-sokoban](https://github.com/mpSchrader/gym-sokoban) - A more complex example of the traditional video game Sokoban.
 
 You should also check out the [official OpenAIGym docs](https://gym.openai.com/docs/), that go over this whole process, in some parts with a bit more detail.
