@@ -6,7 +6,7 @@ class ExampleEnv(gym.Env):
   metadata = {'render.modes': ['human']}
 
   def __init__(self):
-    ...
+    pass
 
 
   def step(self, action):
@@ -24,7 +24,7 @@ class ExampleEnv(gym.Env):
         done (bool): whether the episode has ended, in which case further step() calls will return undefined results
         info (dict): contains auxiliary diagnostic information (helpful for debugging, and sometimes learning)
     """
-    ...
+    pass
 
   def reset(self):
     """Resets the environment to an initial state and returns an initial observation.
@@ -36,7 +36,7 @@ class ExampleEnv(gym.Env):
     Returns:
         observation (object): the initial observation.
     """
-    ...
+    pass
 
   def render(self, mode='human'):
     """Renders the environment.
@@ -70,7 +70,7 @@ class ExampleEnv(gym.Env):
             else:
                 super(MyEnv, self).render(mode=mode) # just raise an exception
     """
-    ...
+    pass
 
   def close(self):
     """Performs any necessary cleanup.
@@ -78,4 +78,4 @@ class ExampleEnv(gym.Env):
     Environments will automatically close() themselves when
     garbage collected or when the program exits.
     """
-    ...
+    pass
