@@ -72,7 +72,7 @@ The `ExampleEnv` class extends `gym.Env`, the generic OpenAIGym environment clas
 
 The class should override the 4 following methods:
 
-### `step()`
+#### `step()`
 Function that performs a certain action (given by the parameter `action`). The method should return 4 values, in this order:
 
 * `observation` **(object)**: an environment-specific object representing your observation of the environment. For example, the board state in a board game.
@@ -80,13 +80,13 @@ Function that performs a certain action (given by the parameter `action`). The m
 * `done` **(boolean)**: whether it’s time to reset the environment again. Most (but not all) tasks are divided up into well-defined episodes, and done being True indicates the episode has terminated. (For example, perhaps the pole tipped too far, or you lost your last life.)
 * `info` **(dict)**: diagnostic information useful for debugging. It can sometimes be useful for learning (for example, it might contain the raw probabilities behind the environment’s last state change). However, official evaluations of your agent are not allowed to use this for learning.
 
-### `reset()`
+#### `reset()`
 Function that resets the environment and should be called when an episode ends (i.e. when the `done` return value from the `step()` function is `True`).
 
-### `render()`
+#### `render()`
 Function that renders onto the screen or console the current state of the environment. The `mode` parameter's use is to know if the render should be human-friendly or not.
 
-### `close()`
+#### `close()`
 Method that is called to cleanup and shut down the environment.
 
 Inside the [`env.py`](https://github.com/MiguelDelPinto/gym-env-tutorial/blob/main/gym_game/gym_game/envs/env.py) file you can find more information about these methods.
