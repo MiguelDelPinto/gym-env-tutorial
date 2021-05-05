@@ -2,6 +2,12 @@
 
 This tutorial contains the steps that can be performed to start a new OpenAIGym project, and to create a new environment.
 
+## Requirements
+
+- [Python 3](https://www.python.org/downloads/)
+- [pip](https://pip.pypa.io/en/stable/installing/)
+- [OpenAI Gym](https://gym.openai.com/docs/#installation)
+
 ## Steps
 
 1. Create a new repository (in this example, the name is `gym_game`).
